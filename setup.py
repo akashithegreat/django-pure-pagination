@@ -8,9 +8,9 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-pure-pagination',
-    version='0.3.0',
-    url='https://github.com/jamespacileo/django-pure-pagination/',
-    author='James Pacileo',
+    version='0.3.0+orgfix1',  # <-- bump so pip treats this as a new build
+    url='https://github.com/akashithegreat/django-pure-pagination',
+    author='James Pacileo (patched by akashithegreat)',
     author_email='jamespacileo@gmail.com',
     description='''django-pure-pagination provides advanced pagination features
                    and is fully compatible with existing code based on Django's
