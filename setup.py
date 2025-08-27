@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-pure-pagination',
-    version='0.3.0+orgfix1',  # <-- bump so pip treats this as a new build
+    version='0.3.0+abcfix',
     url='https://github.com/akashithegreat/django-pure-pagination',
     author='James Pacileo (patched by akashithegreat)',
     author_email='jamespacileo@gmail.com',
